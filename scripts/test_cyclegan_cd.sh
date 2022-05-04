@@ -1,0 +1,2 @@
+# python test.py --dataroot /data/data/update/256_128 --name maps_cyclegan --model cycle_gan --dataset_mode change
+python test.py --dataroot /data/data/update/256_128 --phase train_test_aligned --name maps_pix2pix --model pix2pix --netG unet_256 --direction BtoA --dataset_mode change_aligned --norm batch --results_dir ./results_pix2pix 
